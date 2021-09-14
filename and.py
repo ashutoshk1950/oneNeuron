@@ -10,6 +10,7 @@ def main(data,eta,epochs):
 
     df = pd.DataFrame(AND)
     df
+    
     X,y = prepare_data(df)
 
     
